@@ -37,7 +37,7 @@
  * <= - меньше или равно
  *
  */
-public class fArithmeticOperations {
+public class chapter04_ArithmeticOperations {
 
     public static void main(String[] args) {
 

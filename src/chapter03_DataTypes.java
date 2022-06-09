@@ -1,4 +1,4 @@
-public class cDataTypes {
+public class chapter03_DataTypes {
 
     public static void main(String[] args) {
 

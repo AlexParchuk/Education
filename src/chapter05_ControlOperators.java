@@ -16,7 +16,7 @@
  *
  * return
  */
-public class gControlOperators {
+public class chapter05_ControlOperators {
 
     public static void main(String[] args)
 

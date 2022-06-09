@@ -28,7 +28,7 @@
  *
  */
 
-public class dLiterals {
+public class chapter03_Literals {
 
     public static void main(String args[]) {
 

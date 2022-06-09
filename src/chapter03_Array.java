@@ -8,7 +8,7 @@
  * new, будут автоматически инициализированы нулевыми значениями
  */
 
-public class eArray {
+public class chapter03_Array {
 
     public static void main(String args[]) {
 

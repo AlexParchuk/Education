@@ -1,7 +1,7 @@
 // коментарий в одну строку
 /* коментарий многострочный
  */
-public class aHelloWorld {
+public class chapter01_HelloWorld {
 
     public static void main(String args[])
 

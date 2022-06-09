@@ -8,7 +8,7 @@
  вторая строка комментария
  */
     
-public class bVariables {
+public class chapter02_Variables {
 
     public static void main(String args[])
        //  Integer Variables + if else + for
