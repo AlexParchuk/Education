@@ -17,5 +17,5 @@ package chapter06;
  *
  *this - этот объект
  */
-public class chapter06_Object {
+public class chapter06_Help {
 }
