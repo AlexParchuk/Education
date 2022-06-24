@@ -23,7 +23,7 @@ public final class StoneScissorsPaper {
             System.out.println("Main menu ---------------------------------");
             System.out.println("Show rules - 0");
             System.out.println("Play       - 1");
-            System.out.println("Exite      - 9");
+            System.out.println("Exit       - 9");
 
             System.out.println("Please select a menu item:");
 
@@ -69,7 +69,7 @@ public final class StoneScissorsPaper {
 
         while (playOn) {
 
-            System.out.println("Please, enter your choice (1-Stone/2-Scissors/3-Paper/9-Exite):");
+            System.out.println("Please, enter your choice (1-Stone/2-Scissors/3-Paper/9-Exit):");
 
             try {
 
