@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore;
+package main.java.com.AlexParchuk.javacore.chapter03;
 
 /**
  * тип имя_переменной[]; int month_days[];

@@ -89,16 +89,13 @@ public final class StoneScissorsPaper {
                         System.out.println("Drow!");
                     else if (result == 1) {
                         System.out.println("ai win.");
-                        //aiWin = aiWin + 1;
                         aiWin++;
                     }
                     else {
                         System.out.println("Human win.");
-                        //humanWin = humanWin + 1;
                         humanWin++;
                     }
 
-                    //gamesPlayed = gamesPlayed + 1;
                     gamesPlayed++;
 
                 }

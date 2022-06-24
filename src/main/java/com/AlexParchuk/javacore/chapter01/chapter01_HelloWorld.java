@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore;
+package main.java.com.AlexParchuk.javacore.chapter01;
 
 // коментарий в одну строку
 /* коментарий многострочный
