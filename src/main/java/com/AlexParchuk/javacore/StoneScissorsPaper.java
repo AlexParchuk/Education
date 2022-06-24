@@ -4,9 +4,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Random;
 
-class StoneScissorsPaper {
+public final class StoneScissorsPaper {
 
-    static void ShowRules(){
+    static private void showRules(){
         System.out.println("Rules---------------------------------");
         System.out.println("Stone      - 1");
         System.out.println("Scissors   - 2");
@@ -16,7 +16,7 @@ class StoneScissorsPaper {
         System.out.println("Scissors(2) - Paper(3) = Scissors(2) win");
     }
 
-    static boolean ShowMainMenu(){
+    static private boolean showMainMenu(){
 
         while (true) {
 
@@ -32,7 +32,7 @@ class StoneScissorsPaper {
                 Scanner scanner = new Scanner(System.in);
                 int answear = scanner.nextInt();
 
-                if (answear == 0) ShowRules();
+                if (answear == 0) showRules();
                 else if (answear == 1) return true;
                 else if (answear == 9) return false;
                 else System.out.println("...incorrect answer! repeat please...");
@@ -43,12 +43,12 @@ class StoneScissorsPaper {
         }
     }
 
-    static int getrandomvalueRSS(){
+    static private int getRandomValueRSS(){
         Random r = new Random();
         return r.nextInt(1, 4);
     }
 
-    static int calculatewinner(int val1, int val2){
+    static private int calculateWinner(int val1, int val2){
 
         if (val1 == val2)
             return 0;
@@ -60,43 +60,46 @@ class StoneScissorsPaper {
 
     public static void main(String[] args) {
 
-        int humanvalue, aivalue, result;
-        int humanwin = 0, aiwin = 0, gamesplayed = 0;
+        int humanValue, aiValue, result;
+        int humanWin = 0, aiWin = 0, gamesPlayed = 0;
 
         System.out.println("Hello my friend!");
 
-        boolean playon = ShowMainMenu();
+        boolean playOn = showMainMenu();
 
-        while (playon) {
+        while (playOn) {
 
             System.out.println("Please, enter your choice (1-Stone/2-Scissors/3-Paper/9-Exite):");
 
             try {
 
                 Scanner scanner = new Scanner(System.in);
-                humanvalue = scanner.nextInt();
+                humanValue = scanner.nextInt();
 
-                if (humanvalue == 9) playon = false;
+                if (humanValue == 9) playOn = false;
 
-                else if (humanvalue == 1 | humanvalue == 2 | humanvalue == 3) {
+                else if (humanValue == 1 | humanValue == 2 | humanValue == 3) {
 
-                    aivalue = getrandomvalueRSS();
-                    System.out.println("ai value " + aivalue);
+                    aiValue = getRandomValueRSS();
+                    System.out.print("ai value " + aiValue + ". ");
 
-                    result = calculatewinner(aivalue, humanvalue);
+                    result = calculateWinner(aiValue, humanValue);
 
                     if (result == 0)
                         System.out.println("Drow!");
                     else if (result == 1) {
                         System.out.println("ai win.");
-                        aiwin = aiwin + 1;
+                        //aiWin = aiWin + 1;
+                        aiWin++;
                     }
                     else {
                         System.out.println("Human win.");
-                        humanwin = humanwin + 1;
+                        //humanWin = humanWin + 1;
+                        humanWin++;
                     }
 
-                    gamesplayed = gamesplayed + 1;
+                    //gamesPlayed = gamesPlayed + 1;
+                    gamesPlayed++;
 
                 }
                 else System.out.println("...incorrect answer! repeat please...");
@@ -106,13 +109,13 @@ class StoneScissorsPaper {
             }
         }
 
-        if (gamesplayed > 0) {
+        if (gamesPlayed > 0) {
 
-            System.out.println("Total games played: " + gamesplayed);
-            System.out.println("Total score: ai won = " + aiwin + ", human won " + humanwin);
+            System.out.println("Total games played: " + gamesPlayed);
+            System.out.println("Total score: ai win = " + aiWin + ", human win " + humanWin);
 
-            if (aiwin > humanwin) System.out.println("Sorry, AI win)");
-            else if (aiwin < humanwin) System.out.println("Congratulation, human win!");
+            if (aiWin > humanWin) System.out.println("Sorry, AI win)");
+            else if (aiWin < humanWin) System.out.println("Congratulation, human win!");
             else System.out.println("The game ended in a draw!)");
 
         }
