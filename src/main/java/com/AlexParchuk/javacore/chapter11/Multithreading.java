@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter11;
+package com.AlexParchuk.javacore.chapter11;
 
 /**Потоки исполнения находятся в нескольких состояниях.
  * готовым к выполнению - как только получит время ЦП.

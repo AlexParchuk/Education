@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter07;
+package com.AlexParchuk.javacore.chapter07;
 
 class Box {
 

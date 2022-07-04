@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter09.interfaces;
+package com.AlexParchuk.javacore.chapter09.interfaces;
 
 /**Чтобы реализовать интерфейс, в определение класса требуется включить выражение implements,
  * а затем создать методы, определенные в интерфейсе.

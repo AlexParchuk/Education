@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter10;
+package com.AlexParchuk.javacore.chapter10;
 
 public class FinallyDemo {
 

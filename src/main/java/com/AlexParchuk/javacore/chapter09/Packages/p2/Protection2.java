@@ -1,6 +1,6 @@
-package main.java.com.AlexParchuk.javacore.chapter09.Packages.p2;
+package com.AlexParchuk.javacore.chapter09.Packages.p2;
 
-class Protection2 extends main.java.com.AlexParchuk.javacore.chapter09.Packages.p1.Protection {
+class Protection2 extends com.AlexParchuk.javacore.chapter09.Packages.p1.Protection {
 
     Protection2() {
         System.out.println("Constructor inherited from another package.");

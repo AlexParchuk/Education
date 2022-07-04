@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter10;
+package com.AlexParchuk.javacore.chapter10;
 
 /**Исключение в Java представляет собой объект, описывающий исключительную
  * (т.е. ошибочную) ситуацию, возникающую в определенной части программного кода.

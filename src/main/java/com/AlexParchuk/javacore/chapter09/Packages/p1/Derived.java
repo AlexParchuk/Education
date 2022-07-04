@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter09.Packages.p1;
+package com.AlexParchuk.javacore.chapter09.Packages.p1;
 
 public class Derived extends Protection {
 

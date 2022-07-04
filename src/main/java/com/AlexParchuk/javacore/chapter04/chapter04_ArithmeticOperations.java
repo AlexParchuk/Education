@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter04;
+package com.AlexParchuk.javacore.chapter04;
 
 /**
  * % - деление по модулю - остаток от деления

@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter07;
+package com.AlexParchuk.javacore.chapter07;
 
 /** Метод, который
  *  принимает переменное количество арrументов, называется методом с аргументами

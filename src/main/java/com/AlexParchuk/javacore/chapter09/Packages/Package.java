@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter09.Packages;
+package com.AlexParchuk.javacore.chapter09.Packages;
 
 /**Пакеты являются контейнерами классов. Они служат для разделения пространств имен класса.
  * package пакет;

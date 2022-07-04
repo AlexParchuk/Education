@@ -1,6 +1,6 @@
-package main.java.com.AlexParchuk.javacore.chapter09.Packages.p2;
+package com.AlexParchuk.javacore.chapter09.Packages.p2;
 
-import main.java.com.AlexParchuk.javacore.chapter09.Packages.p1.Protection;
+import com.AlexParchuk.javacore.chapter09.Packages.p1.Protection;
 
 public class Demo {
 

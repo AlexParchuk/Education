@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore;
+package com.AlexParchuk.javacore;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Random;
 
 public final class StoneScissorsPaper {
 
-    static private void showRules(){
+    private static void showRules(){
         System.out.println("Rules---------------------------------");
         System.out.println("Stone      - 1");
         System.out.println("Scissors   - 2");
@@ -16,7 +16,7 @@ public final class StoneScissorsPaper {
         System.out.println("Scissors(2) - Paper(3) = Scissors(2) win");
     }
 
-    static private boolean showMainMenu(){
+    private static boolean showMainMenu(){
 
         while (true) {
 
@@ -43,12 +43,12 @@ public final class StoneScissorsPaper {
         }
     }
 
-    static private int getRandomValueRSS(){
+    private static int getRandomValueRSS(){
         Random r = new Random();
         return r.nextInt(1, 4);
     }
 
-    static private int calculateWinner(int val1, int val2){
+    private static int calculateWinner(int val1, int val2){
 
         if (val1 == val2)
             return 0;

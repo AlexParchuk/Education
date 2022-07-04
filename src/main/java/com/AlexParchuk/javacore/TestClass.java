@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore;
+package com.AlexParchuk.javacore;
 
 class TestClass {
 

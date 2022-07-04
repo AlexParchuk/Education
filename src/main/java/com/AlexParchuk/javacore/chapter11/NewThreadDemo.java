@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter11;
+package com.AlexParchuk.javacore.chapter11;
 
 class NewThreadDemo implements Runnable {
 

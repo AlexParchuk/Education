@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter02;
+package com.AlexParchuk.javacore.chapter02;
 
 /**
  Документирующий комментарий

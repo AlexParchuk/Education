@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter09.interfaces;
+package com.AlexParchuk.javacore.chapter09.interfaces;
 
 public interface IntStack {
     void push(int item);

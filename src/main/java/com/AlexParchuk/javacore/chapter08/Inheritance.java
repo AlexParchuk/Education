@@ -1,4 +1,4 @@
-package main.java.com.AlexParchuk.javacore.chapter08;
+package com.AlexParchuk.javacore.chapter08;
 
 /**
  * extends
